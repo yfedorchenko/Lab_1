@@ -1,18 +1,8 @@
 #include <algorithm>
 using namespace std;
-bool F1_comp(double a, double b) 
+bool F1_comp(pair<float, int> a, pair<float, int> b)
 {
-	a = a - (int)a;
-	b = b - (int)b;
-	while (a != (int)a)
-	{
-		a *= 10;
-	}
-	while (b != (int)b)
-	{
-		b *= 10;
-	}
-	int ia = a, ib = b, sa = 0, sb = 0;
+	int ia = a.second, ib = b.second, sa = 0, sb = 0;
 	while (ia) 
 	{
 		sa += ia % 10;
@@ -23,10 +13,10 @@ bool F1_comp(double a, double b)
 		sb += ib % 10;
 		ib /= 10;
 	}
-	return sa > sb;
+	return sa < sb;
 }
 
-double* Func1(double* mas, int i) 
+pair<float, int>* Func1(pair<float, int>* mas, int i)
 {
 	sort(mas, mas + i, F1_comp);
 	return mas;

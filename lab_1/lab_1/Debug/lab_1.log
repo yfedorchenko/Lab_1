@@ -1,4 +1,9 @@
-﻿lab_1.obj : error LNK2005: "bool __cdecl F1_comp(double,double)" (?F1_comp@@YA_NNN@Z) уже определен в F1.obj
-lab_1.obj : error LNK2005: "double * __cdecl Func1(double *,int)" (?Func1@@YAPANPANH@Z) уже определен в F1.obj
-lab_1.obj : error LNK2005: "struct std::pair<int,double> __cdecl Func2(double *,int)" (?Func2@@YA?AU?$pair@HN@std@@PANH@Z) уже определен в F2.obj
-C:\Users\dimab\Desktop\lab_1\Debug\lab_1.exe : fatal error LNK1169: обнаружен многократно определенный символ - один или более
+﻿  lab_1.cpp
+C:\Users\yuraf\OneDrive\Документи\GitHub\Lab_1\lab_1\lab_1\lab_1.cpp(28,23): warning C4244: =: преобразование "double" в "_Ty1", возможна потеря данных
+          with
+          [
+              _Ty1=float
+          ]
+C:\Users\yuraf\OneDrive\Документи\GitHub\Lab_1\lab_1\lab_1\lab_1.cpp(31,17): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\yuraf\OneDrive\Документи\GitHub\Lab_1\lab_1\lab_1\lab_1.cpp(67,22): warning C4018: <: несоответствие типов со знаком и без знака
+  lab_1.vcxproj -> C:\Users\yuraf\OneDrive\Документи\GitHub\Lab_1\lab_1\Debug\lab_1.exe
