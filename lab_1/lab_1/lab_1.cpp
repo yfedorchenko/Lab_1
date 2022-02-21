@@ -91,5 +91,6 @@ int main(int argc, char* argv[])
 	}
 	o << endl << Func2(mas, size).first << " " << Func2(mas, size).second;
 	o.close();
+	cout << "Данные выведены в файл " << file << endl;
 	return 0;
 }
