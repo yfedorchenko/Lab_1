@@ -2,11 +2,10 @@
 #include <fstream>
 #include <string>
 #include <windows.h>
+#include "F1.h"
+#include "F2.h"
 
 using namespace std;
-
-pair<float, int>* Func1(pair<float, int>* mas, int i);
-pair<int, float> Func2(pair<float, int>* mas, int size);
 
 int main(int argc, char* argv[])
 {

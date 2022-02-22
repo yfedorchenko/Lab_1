@@ -1,9 +1,12 @@
-﻿  lab_1.cpp
-C:\Users\yuraf\OneDrive\Документи\GitHub\Lab_1\lab_1\lab_1\lab_1.cpp(28,23): warning C4244: =: преобразование "double" в "_Ty1", возможна потеря данных
+﻿  F1.cpp
+  F2.cpp
+  lab_1.cpp
+C:\Users\yuraf\OneDrive\Документи\GitHub\Lab_1\lab_1\lab_1\lab_1.cpp(27,23): warning C4244: =: преобразование "double" в "_Ty1", возможна потеря данных
           with
           [
               _Ty1=float
           ]
-C:\Users\yuraf\OneDrive\Документи\GitHub\Lab_1\lab_1\lab_1\lab_1.cpp(31,17): warning C4018: <: несоответствие типов со знаком и без знака
-C:\Users\yuraf\OneDrive\Документи\GitHub\Lab_1\lab_1\lab_1\lab_1.cpp(67,22): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\yuraf\OneDrive\Документи\GitHub\Lab_1\lab_1\lab_1\lab_1.cpp(30,17): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\yuraf\OneDrive\Документи\GitHub\Lab_1\lab_1\lab_1\lab_1.cpp(66,22): warning C4018: <: несоответствие типов со знаком и без знака
+  Создание кода...
   lab_1.vcxproj -> C:\Users\yuraf\OneDrive\Документи\GitHub\Lab_1\lab_1\Debug\lab_1.exe
